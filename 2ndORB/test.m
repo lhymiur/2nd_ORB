@@ -9,7 +9,7 @@ randn('state',1);
 rand('state',1);
 
 denoise_name_all = {'2ndORB'};
-Test_image_dir = '../Test_Images/Set12';
+Test_image_dir = '../test_images/Set12';
 PSNR_sum = 0;
 for k=1:12
     dir_name = [dir(fullfile(Test_image_dir,'*.png'))];
